@@ -22,7 +22,7 @@ public static void main(String[]args) throws InterruptedException
     List <WebElement> radioButtonList= driver.findElements(By.xpath("//input[@type='radio']"));
     
     System.out.println("Total No of buttons on webpage:"+radioButtonList.size());
-    driver.quit();
+    // driver.quit();
     
 
 	}
